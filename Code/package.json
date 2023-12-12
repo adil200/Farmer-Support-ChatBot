@@ -1,0 +1,15 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "![Vikbot](https://media.tenor.com/OjxR-mgQmNoAAAAi/vutura-chatbot.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
