@@ -1,0 +1,72 @@
+{
+   "intents": [
+      {
+         "tag": "weather_forecast",
+         "patterns": [
+            "What's the weather going to be like today?",
+            "Will it rain tomorrow?",
+            "Is a drought expected this year?",
+            "What is the forecast for this week?",
+            "Do I need to worry about frost tonight?"
+         ],
+         "responses": [
+            "The weather today will be sunny with a high of 32 degrees.",
+            "Light rain is expected tomorrow afternoon.",
+            "There are no current drought warnings for this year.",
+            "This week will have mixed weather with some rainy days.",
+            "No frost is expected tonight, temperatures will stay above freezing."
+         ]
+      },
+      {
+         "tag": "crop_prices",
+         "patterns": [
+            "What's the current price of wheat?",
+            "How much are onions selling for?",
+            "What is the market rate for rice?",
+            "Are cotton prices expected to rise?",
+            "What is the price of sugarcane per ton?"
+         ],
+         "responses": [
+            "The current price for wheat is \u20b92000 per quintal.",
+            "Onions are selling at \u20b9500 per quintal.",
+            "The market rate for rice is \u20b93000 per quintal.",
+            "Cotton prices are expected to be stable in the upcoming months.",
+            "Sugarcane is priced at \u20b9350 per ton."
+         ]
+      },
+      {
+         "tag": "agricultural_techniques",
+         "patterns": [
+            "How should I prepare my soil for planting?",
+            "What is the best way to increase crop yield?",
+            "How do I practice sustainable farming?",
+            "Can you tell me about organic farming practices?",
+            "What are some effective methods for irrigation?"
+         ],
+         "responses": [
+            "Soil preparation involves plowing, leveling, and applying organic matter.",
+            "Increasing crop yield can be achieved through crop rotation, proper fertilization, and pest control.",
+            "Sustainable farming involves using techniques that protect the environment, public health, and animal welfare.",
+            "Organic farming practices include the use of natural pesticides and fertilizers and crop rotation.",
+            "Effective irrigation methods include drip irrigation, sprinkler systems, and proper scheduling."
+         ]
+      },
+      {
+         "tag": "government_schemes",
+         "patterns": [
+            "What subsidies are available for farmers?",
+            "How can I apply for the Pradhan Mantri Fasal Bima Yojana?",
+            "Are there any government loans for farmers?",
+            "What is the Kisan Credit Card scheme?",
+            "How do I get benefits from the National Horticulture Mission?"
+         ],
+         "responses": [
+            "Farmers can avail of subsidies on seeds, fertilizers, and equipment.",
+            "You can apply for Pradhan Mantri Fasal Bima Yojana through the official portal or visit your nearest agriculture office.",
+            "Government loans for farmers are available through various schemes like Kisan Credit Card.",
+            "The Kisan Credit Card scheme provides farmers with credit for their agricultural needs at subsidized rates.",
+            "Benefits from the National Horticulture Mission can be availed by registering on their official website or contacting the local agriculture office."
+         ]
+      }
+   ]
+}
