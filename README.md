@@ -1,10 +1,10 @@
 
-![P291e_Xarvio_WhatsApp_Still_Rice](https://github.com/adil200/Farmer-Support-ChatBot/assets/84585300/fe44931e-5712-4cfa-bda9-b6b3ac868d8c)
-
 
 # Farmer Support ChatBot
 
 Welcome to the "Farmer Support ChatBot" project! This repository focuses on developing a chatbot tailored for farmers, equipped with features such as language translation, speech recognition, and real-time communication. The project integrates a Flask backend and a React frontend, creating an interactive platform for farmers to seek information and assistance.
+
+![Screenshot 2024-01-13 at 3 30 24 PM](https://github.com/adil200/Farmer-Support-ChatBot/assets/75264739/5dcf78d5-e627-4b6f-9174-56ea06431021)
 
 ## Overview
 
@@ -60,7 +60,7 @@ npm run build
 npm run dev
 ```
 
-5.  Open your browser and access `http://localhost:3000` to interact with the Farmer Support ChatBot.
+5.  Open your browser and access `http://localhost:5173/` to interact with the Farmer Support ChatBot.
 
 ## Features
 
