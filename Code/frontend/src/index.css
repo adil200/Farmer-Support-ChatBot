@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #101124;
+}
+
+#back-ball {
+  left: -8rem;
+  top: -4rem;
+  height: 700px;
+  width: 700px;
+  filter: blur(60px);
+}
+
+#back-ball-2 {
+  right: 0;
+  bottom: 0;
+  height: 600px;
+  width: 600px;
+  filter: blur(60px);
+}
+
+#backdrop {
+  backdrop-filter: blur(100px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#chatscreen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#chatContainer {
+  max-width: 80%; 
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#chatContainer.self {
+  align-self: flex-end;
+  background-color: #475569; 
+}
+
+#chatContainer:not(.self) {
+  align-self: flex-start;
+  background-color: #475569; 
+}
+
+#chatscreen::-webkit-scrollbar {
+  width: 5px;
+}
+
+#chatscreen::-webkit-scrollbar-thumb {
+  background-color: #7b93ff;
+  border-radius: 10px;
+}
+
+#input-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px; 
+  background-color: #101124;
+  z-index: 10; 
+}
