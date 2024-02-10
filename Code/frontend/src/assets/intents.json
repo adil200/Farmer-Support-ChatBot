@@ -1,0 +1,199 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup",
+            "Hi there, can you help me with something?",
+            "Hello! I have a question. Can you assist me?",
+            "Hey, I need your help with something.",
+            "Good morning/afternoon/evening! Can you answer a question for me?",
+            "Greetings! I need your assistance with something.",
+            "Hi,can you provide me with some information?",
+            "Hello, can you help me with a task?",
+            "Hey,I'm looking for some guidance. Can you help?",
+            "Good day! Can you assist me with a query?",
+            "Hi,I would like to ask you a question.",
+            "Hello",
+            "Hey there",
+            "Hi",
+            "Greetings",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Salutations",
+            "Howdy",
+            "Yo",
+            "Hiya",
+            "What's up",
+            "Sup",
+           "Hola",
+           "Bonjour",
+            "Ciao",
+            "Konnichiwa",
+            "Namaste",
+            "Salaam",
+            "Shalom",
+            "Good day",
+            "Pleasure to chat with you",
+            "It's great to talk with you",
+            "Hi chatbot",
+            "Hello chatbot",
+            "Hey chatbot",
+            "What's new",
+            "How's it going",
+            "What's happening",
+            "What can you do for me",
+            "How can I assist you",
+            "Can you help me",
+            "I need your help",
+            "I have a question",
+            "I'm here to chat",
+            "Let's talk",
+            "What's on your mind",
+            "What are you capable of doing",
+            "What brings you here"
+         ],
+         "responses": [
+            "Hello!",
+            "Hi there, how can I help?",
+            "Greetings, how may i help you?",
+            "Good day, what brings you here?",
+            "Howdy, what's on your mind?",
+            "Yo, what can I do for you?",
+            "Hey there, how may I assist you?",
+            "Welcome, what can I help you with?",
+            "Nice to meet you, how may I be of assistance?",
+            "Pleasure to chat with you, what can I do for you?",
+            "I'm a chatbot, how can I help you today?",
+            "My name is [bot name], what can I do for you?",
+            "I'm here to help, what can I assist you with?",
+            "What's up, how may I assist you today?",
+            "Hi, how can I be of service?",
+            "Good to see you, what can I help you with?",
+            "Hi there, what brings you to me?",
+            "I'm here to answer your questions, what would you like to know?",
+            "How may I be of assistance to you today?",
+            "Hi, what can I do for you today?",
+            "What can I help you with today?",
+            "I'm here to chat with you, what would you like to talk about?",
+            "How may I assist you in solving your problem?",
+            "I'm here to assist you, what can I do for you today?",
+            "Hi, how can I make your day better?",
+            "What can I do to assist you today?",
+            "I'm here to listen to you, what can I help you with?",
+            "Hi there, how may I assist you with your inquiry?",
+            "I'm here to answer your questions, what would you like to know",
+            "What can I help you with today?",
+            "I'm here to make your life easier, how can I assist you?",
+            "How can I help you today?",
+            "I'm here to make things easier for you, what can I do for you?",
+            "Hi, how can I assist you today?",
+            "What's on your mind, how may I assist you today?",
+            "How may I assist you in resolving your issue?",
+            "I'm here to assist you, what can I do for you today?",
+            "Hi there, what can I help you with?",
+            "How may I be of service to you today?",
+            "I'm here to assist you with your needs, what can I do for you?",
+            "How can I make your day better today?",
+            "I'm here to make things easier for you, what can I help you with?",
+            "Hi there, how may I assist you in solving your problem?",
+            "What can I help you with today",
+            "I'm here to help you out, what can I do for you?",
+            "How may I be of assistance today?",
+            "I'm here to provide answers to your questions, what would you like to know?",
+            "Hi, how can I help you today?",
+            "How may I assist you in achieving your goals?"
+         ],
+         "context_set": "greeting"
+      },
+      {
+         "tag": "weather_forecast",
+         "patterns": [
+            "What's the weather going to be like today?",
+            "Will it rain tomorrow?",
+            "Is a drought expected this year?",
+            "What is the forecast for this week?",
+            "Do I need to worry about frost tonight?"
+         ],
+         "responses": [
+            "The weather today will be sunny with a high of 32 degrees.",
+            "Light rain is expected tomorrow afternoon.",
+            "There are no current drought warnings for this year.",
+            "This week will have mixed weather with some rainy days.",
+            "No frost is expected tonight, temperatures will stay above freezing."
+         ]
+      },
+      {
+         "tag": "crop_prices",
+         "patterns": [
+            "What's the current price of wheat?",
+            "How much are onions selling for?",
+            "What is the market rate for rice?",
+            "Are cotton prices expected to rise?",
+            "What is the price of sugarcane per ton?"
+         ],
+         "responses": [
+            "The current price for wheat is \u20b92000 per quintal.",
+            "Onions are selling at \u20b9500 per quintal.",
+            "The market rate for rice is \u20b93000 per quintal.",
+            "Cotton prices are expected to be stable in the upcoming months.",
+            "Sugarcane is priced at \u20b9350 per ton."
+         ]
+      },
+      {
+         "tag": "agricultural_techniques",
+         "patterns": [
+            "How should I prepare my soil for planting?",
+            "What is the best way to increase crop yield?",
+            "How do I practice sustainable farming?",
+            "Can you tell me about organic farming practices?",
+            "What are some effective methods for irrigation?"
+         ],
+         "responses": [
+            "Soil preparation involves plowing, leveling, and applying organic matter.",
+            "Increasing crop yield can be achieved through crop rotation, proper fertilization, and pest control.",
+            "Sustainable farming involves using techniques that protect the environment, public health, and animal welfare.",
+            "Organic farming practices include the use of natural pesticides and fertilizers and crop rotation.",
+            "Effective irrigation methods include drip irrigation, sprinkler systems, and proper scheduling."
+         ]
+      },
+      {
+         "tag": "government_schemes",
+         "patterns": [
+            "What subsidies are available for farmers?",
+            "How can I apply for the Pradhan Mantri Fasal Bima Yojana?",
+            "Are there any government loans for farmers?",
+            "What is the Kisan Credit Card scheme?",
+            "How do I get benefits from the National Horticulture Mission?"
+         ],
+         "responses": [
+            "Farmers can avail of subsidies on seeds, fertilizers, and equipment.",
+            "You can apply for Pradhan Mantri Fasal Bima Yojana through the official portal or visit your nearest agriculture office.",
+            "Government loans for farmers are available through various schemes like Kisan Credit Card.",
+            "The Kisan Credit Card scheme provides farmers with credit for their agricultural needs at subsidized rates.",
+            "Benefits from the National Horticulture Mission can be availed by registering on their official website or contacting the local agriculture office."
+         ]
+      },
+      {
+         "tag": "schemes",
+         "patterns": [
+            "what are the schemes available for farmers?",
+            "central government schemes for farmers",
+            "schemes for farmers",
+            "government schemes"
+         ],
+         "responses": [
+            "These are some of the central government schemes availble for farmers: <br> 1.<a target=\"_blank\" href=\"http://agriinfra.dac.gov.in/\"> Agriculture Infrastructure Fund</a><br> 2.<a target=\"_blank\" href=\"https://extensionreforms.dacnet.nic.in/DashBoard_Statusatma.aspx\"> ATMA</a> <br> 3.<a target=\"_blank\" href=\"https://agmarknet.gov.in/PriceAndArrivals/arrivals1.aspx\"> AGMARKNET</a><br> 4.<a target=\"_blank\" href=\"https://midh.gov.in/nhmapplication/feedback/midhKPI.aspx\">Horticulture</a><br> 5.<a target=\"_blank\" href=\"https://agriwelfare.gov.in/Documents/Pesticides_Registration.pdf\">Online Pesticide Registration</a><br> 6. <a target=\"_blank\" href=\"https://pqms.cgg.gov.in/pqms-angular/home\">Plant Quarantine Clearance</a><br> 7. <a target=\"_blank\" href=\"https://www.dbtdacfw.gov.in/\">DBT in Agriculture</a><br> 8. <a target=\"_blank\" href=\"https://pmksy.gov.in/mis/frmDashboard.aspx\">Pradhanmantri Krishi Sinchayee Yojana</a> <br> 9. <a target=\"_blank\" href=\"https://mkisan.gov.in/Home/KCCDashboard\">Kisan Call Center</a><br> 10. <a target=\"_blank\" href=\"https://mkisan.gov.in/\">mKisan</a><br> 11. <a target=\"_blank\" href=\"https://pgsindia-ncof.gov.in/home.aspx\">Jaivik Kheti</a><br> 12. <a target=\"_blank\" href=\"https://enam.gov.in/web/\">e-Nam</a><br> 13. <a target=\"_blank\" href=\"https://soilhealth.dac.gov.in/home\">Soil Health Card</a><br> 14.<a target=\"_blank\" href=\"https://pmfby.gov.in/ext/rpt/ssfr_17\">Pradhan Mantri Fasal Bima Yojana</a><br>"
+         ]
+      }
+      
+   ]
+}
